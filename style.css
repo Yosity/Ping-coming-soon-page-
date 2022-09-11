@@ -1,0 +1,138 @@
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.main-container {
+    width: 90%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.logo {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 65px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 2.2rem;
+}
+.title span {
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+.title p {
+    font-size: 0.95rem;
+    color: hsl(209, 33%, 12%);
+}
+.input-button-div {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    display: grid;
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+
+input,button{
+    padding: 15px;
+    border-radius: 1.4rem;
+    border: none;
+}
+input {
+    width: 100%;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    border: 1.5px solid hsl(223, 100%, 88%);
+}
+input::placeholder {
+    color: hsl(223, 100%, 88%);
+}
+label {
+   color: hsl(354, 100%, 66%);
+   font-size: 12px;
+}
+button {
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    margin-bottom: 1.3rem;
+    font-weight: 600;
+    box-shadow: 0 6px 10px hsl(223, 84%, 83%);
+    cursor: pointer;
+    
+    transition: opacity 0.15s;
+}
+@media (min-width:900px) {
+    .logo img{
+        width: 75px ;
+    }
+    .title {
+        font-size: 2.4rem;
+    }
+    .title p {
+        font-size: 1.2rem;
+    }
+    .input-button-div{
+        max-width: 600px;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 16px;
+    }
+}
+button:hover {
+    opacity: 0.85;
+}
+.image-container {
+    margin: auto;
+    max-width: 450px;
+}
+.image-container img {
+    width: 100%;
+}
+
+@media (min-width:900px) {
+    .image-container{
+        max-width: 650px;
+    }
+}
+
+.footer {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.media {
+    color: hsl(223, 87%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 1.5rem;
+}
+
+#facebook,
+#twitter,
+#instagram {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(223, 100%, 88%);
+   
+    border-radius: 1.2rem;
+}
+
+#copyright {
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}

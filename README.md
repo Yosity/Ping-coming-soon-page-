@@ -1,0 +1,1 @@
+I learned about email validation condioton in this challenge, I had to use a regular expression I took from the internet and it worked 
